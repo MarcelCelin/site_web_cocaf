@@ -1,0 +1,33 @@
+<app-navbar></app-navbar>
+
+<div class="flex">
+
+  <!-- MAIN CONTENT -->
+  <div class="w-3/4 h-screen overflow-y-scroll p-6">
+
+    <section id="home">
+      <app-home></app-home>
+    </section>
+
+    <section id="about">
+      <app-about></app-about>
+    </section>
+
+    <section id="activities">
+      <app-activities></app-activities>
+    </section>
+
+    <section id="gallery">
+      <app-gallery></app-gallery>
+    </section>
+
+  </div>
+
+  <!-- RIGHT SIDEBAR -->
+  <div class="w-1/4 border-l h-screen sticky top-0 p-4 bg-gray-50">
+      <app-sidebar-announcements></app-sidebar-announcements>
+  </div>
+
+</div>
+
+<app-footer></app-footer>
