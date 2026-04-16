@@ -7,7 +7,6 @@ import { Activities } from "./features/activities/activities";
 import { Gallery } from "./features/gallery/gallery";
 import { SidebarAnnouncements } from "./shared/components/sidebar-announcements/sidebar-announcements";
 import { Footer } from "./shared/components/footer/footer";
-import { initFlowbite } from 'flowbite';
 import { AfterViewInit } from '@angular/core';
 
 @Component({
